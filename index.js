@@ -39,9 +39,8 @@ io.on('connection', function (socket) {
         io.emit('chat message', msg);
         if (messages.length > 9) {
             messages.shift();
-        } else {
-            messages.push(msg);
         }
+        messages.push(msg);
     });
 });
 
