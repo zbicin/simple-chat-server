@@ -1,0 +1,21 @@
+{
+  "name": "simple-chat-server",
+  "version": "1.0.0",
+  "description": "Simple socket.io based chat server that can be used for various workshops.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Krzysztof Zbiciński",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbicin/simple-chat-server.git"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.1.0"
+  }
+}
