@@ -22,7 +22,7 @@ By default the app runs on port 3000. If you wish to change it, use either the `
 npm start -- --port 1234
 ```
 
-or `SIMPLE_CHAT_PORT` environmental variable:
+or `SIMPLE_CHAT_SERVER_PORT` environmental variable:
 
 ```
 export SIMPLE_CHAT_SERVER_PORT=1234
