@@ -37,7 +37,11 @@ io.on('connection', function (socket) {
     socket.on('chat message', function (msg) {
         msg.author = users[socket.id];
         io.emit('chat message', msg);
-        messages.push(msg);
+        if (messages.length > 9) {
+            messages.shift();
+        } else {
+            messages.push(msg);
+        }
     });
 });
 
